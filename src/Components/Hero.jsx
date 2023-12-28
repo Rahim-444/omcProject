@@ -3,7 +3,7 @@ import { Timer } from "./Timer";
 export const Hero = () => (
   <>
     <div className="h-1/2 mt-32 flex justify-center items-center">
-      <div className="w-4/6 text-justify">
+      <div className="w-4/6 text-center">
         <div className="flex justify-center items-center ">
           <h1 className="text-5xl font-bold mb-12">Welcome to OMC Event</h1>
         </div>
