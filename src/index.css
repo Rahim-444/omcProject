@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  background-color: #000000;
+  background-image: url("./assets/memento-media-S6-59EHDUWA-unsplash.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
