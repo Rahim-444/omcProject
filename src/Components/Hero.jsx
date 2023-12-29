@@ -30,7 +30,14 @@ export const Hero = () => (
 const Button = () => {
   return (
     <>
-      <button className="bg-transparent  border-2 border-white rounded-full  text-white font-bold py-3 px-8 hover:border-[#f0af21] hover:text-[#f0af21] transition-all duration-200">
+      <button
+        onClick={() => {
+          window.alert(
+            "this button doesn't do anything at the moment but with more pages and more info about the event it could be a great addition",
+          );
+        }}
+        className="bg-transparent  border-2 border-white rounded-full  text-white font-bold py-3 px-8 hover:border-[#f0af21] hover:text-[#f0af21] transition-all duration-200"
+      >
         learn more
       </button>
     </>

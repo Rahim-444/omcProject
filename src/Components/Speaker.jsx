@@ -2,7 +2,7 @@ import speaker from "../assets/ali-morshedlou-WMD64tMfc4k-unsplash.jpg";
 export const Speaker = () => {
   return (
     <>
-      <div className="flex justify-between items-center mx-10 h-screen gap-">
+      <div className="flex justify-around items-center mx-10 h-screen ">
         <div className="flex flex-col w-1/2">
           <h1 className="text-5xl font-bold text-[#2b75bb] mb-12 text-justify">
             Speaker

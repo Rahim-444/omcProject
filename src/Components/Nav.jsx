@@ -20,17 +20,24 @@ export const Nav = () => {
               to="speaker"
               spy={true}
               smooth={true}
-              offset={50}
+              offset={0}
               duration={500}
             >
               <li className="hover:cursor-pointer hover:text-[#2b75bb]">
                 Speaker
               </li>
             </ScrollLink>
-            <li className="hover:cursor-pointer hover:text-[#2b75bb]">
-              Schudule
-            </li>
-            <li className="hover:cursor-pointer hover:text-[#2b75bb]">Venue</li>
+            <ScrollLink
+              to="schedule"
+              spy={true}
+              smooth={true}
+              offset={0}
+              duration={500}
+            >
+              <li className="hover:cursor-pointer hover:text-[#2b75bb]">
+                Schudule &amp; Venue
+              </li>
+            </ScrollLink>
           </ul>
           <Register />
         </div>
