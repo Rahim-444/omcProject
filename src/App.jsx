@@ -1,14 +1,12 @@
-import { Nav } from "./Components/Nav";
-import { Hero } from "./Components/Hero";
+import { Home } from "./Components/Home";
 import { Form } from "./Components/Form";
+import { Route, Routes } from "react-router-dom";
 function App() {
   return (
-    <>
-      <div className="mx-10">
-        <Nav />
-        <Hero />
-      </div>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />}></Route>
+      <Route path="/Form" element={<Form />}></Route>
+    </Routes>
   );
 }
 

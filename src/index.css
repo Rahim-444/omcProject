@@ -6,6 +6,8 @@
   background-color: #000000;
   background-image: url("./assets/memento-media-S6-59EHDUWA-unsplash.jpg");
   background-size: cover;
+  color-scheme: dark;
+  background-attachment: fixed;
   background-repeat: no-repeat;
   color: white;
   font-synthesis: none;
